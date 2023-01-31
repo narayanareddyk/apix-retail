@@ -1,0 +1,38 @@
+.light {
+  --login_bg: #E5E5E5;
+  --primary_1: #fff;
+  --primary_2: #f15d2a;
+  --secondary_1: #f15d2a;
+  --secondary_2: #de9700;
+  --primary_title: #343c6a;
+  --secondary_title: #1c1c1c;
+  --border_color: #fff;
+  --layout_color: #1c1c1c;
+  --nav_color: #2d60ff;
+  --nav_color_primary: #505887;
+  --box_shadow: none;
+  --portfolio-card-assest:#71c1b4;
+  --portfolio-card-liability:#fbb12b;
+  --portfolio-card-assest-border:#71c1b4;
+  --portfolio-card-liability-border:#fbb12b;
+
+}
+
+.dark {
+  --login_bg: #45288e;
+  --primary_1: #45288e;
+  --primary_2: #f15d2a;
+  --secondary_1: #f15d2a;
+  --secondary_2: #de9700;
+  --primary_title: #fff;
+  --secondary_title: #fff;
+  --border_color: #46ffe0;
+  --layout_color: #1c1c1c;
+  --nav_color: #2d60ff;
+  --nav_color_primary: #fff;
+  --box_shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  --portfolio-card-assest:#45288e;
+  --portfolio-card-liability:#45288e;
+  --portfolio-card-assest-border:#46ffe0;
+  --portfolio-card-liability-border:#46ffe0;
+}

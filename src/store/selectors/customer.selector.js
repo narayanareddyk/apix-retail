@@ -1,0 +1,12 @@
+export const accountInfoSelector = (state) => state.customer.accountInfo
+export const identityInfoSelector = (state) => state.customer.identityInfo
+export const selfieImageSelector = (state) => state.customer.selfieImage
+export const frontImageSelector = (state) => state.customer.frontImage
+export const backImageSelector = (state) => state.customer.backImage
+export const signatureSelector = (state) => state.customer.signature
+export const basicInfoSelector = (state) => state.customer.basicInfo
+export const addressInfoSelector = (state) => state.customer.addressInfo
+export const additionalInfoSelector = (state) => state.customer.additionalInfo
+export const familyInfoSelector = (state) => state.customer.familyInfo
+export const mobileNumberSelector = (state) => state.customer.mobileNumber
+export const emailIdSelector = (state) => state.customer.emailId

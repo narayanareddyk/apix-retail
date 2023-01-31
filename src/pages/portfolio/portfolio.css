@@ -1,0 +1,60 @@
+.portfolio-account-card {
+  background: var(--portfolio-card-assest);
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 2px solid var(--portfolio-card-assest-border);
+  box-shadow: var(--box_shadow);
+}
+
+.libiality-card{
+  background: var(--portfolio-card-liability);
+  border: 2px solid var(--portfolio-card-liability-border);
+}
+
+.portfolio-account-card .ant-empty-image {
+  height: 65px;
+}
+
+.portfolio-account-card .ant-collapse-header {
+  color: #fff !important;
+  font-size: 15px;
+  font-family: "openSans-Regular" !important ;
+  font-weight: 500;
+}
+
+.portfolio-account-card span {
+  font-size: 16px;
+  color: #fff;
+  font-family: openSans-Bold;
+}
+.portfolio-account-card p {
+  font-size: 16px;
+  color: #fff;
+  font-family: openSans-Regular;
+  margin: 0;
+}
+
+.portfolio-account-card .p-card {
+  /* border-bottom: 1px solid #E7ECF3; */
+  padding-bottom: 12px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-section h6 {
+  color: var(--secondary_title);
+}
+
+.title-section span {
+  color: var(--secondary_title);
+}
+
+.portfolio-account-card .ant-empty-description {
+  color: #fff;
+}
+
+/* .portfolio-account-card:nth-child(){
+    border: none;
+} */

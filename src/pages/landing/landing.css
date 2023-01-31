@@ -1,0 +1,111 @@
+.landing-top-banner {
+  height: 80px;
+  background-color: var(--primary_1);
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.landing-top-banner a {
+  padding: 0 20px;
+  font-size: 16px;
+  font-family: "openSans-Semibold";
+  color: var(--primary_title) !important;
+}
+
+.landing-top-banner .ant-select-arrow,
+.landing-top-banner .ant-select-selection-item {
+  color: var(--secondary_title) !important;
+}
+
+.landing-top-banner .ant-btn-lg {
+  margin-left: 20px;
+  width: 120px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.landing-app-info h1,
+.landing-app-info p,
+.landing-how-its-works h2,
+.landing-how-its-works h4,
+.landing-how-its-works span,
+.landing-how-its-works p {
+  color: var(--secondary_title) !important;
+}
+
+.landing-slider {
+  background-image: url("../../assests/images/landing/slider.svg");
+  height: 550px;
+  background-repeat: no-repeat;
+  /* width: 1440px; */
+  margin: 0 auto;
+  background-size: cover;
+  padding: 40px 0;
+}
+.landing-how-its-works {
+  padding: 50px 0;
+  text-align: center;
+  width: 1200px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.landing-app-info {
+  padding: 50px 0;
+  width: 1200px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.landing-footer {
+  padding: 50px 0;
+  height: 200px;
+}
+
+.landing-section {
+  background-color: var(--primary_1);
+}
+
+.slider-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.slider-wrapper h1 {
+  color: #fff;
+  width: 280px;
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.slider-wrapper p {
+  color: #fff;
+  width: 250px;
+  font-size: 16px;
+}
+
+.landing-app-info .auth-card {
+  padding: 20px 20px;
+  border: 1px solid #dfeaf2;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 30px;
+  cursor: pointer;
+  height: 80px;
+  width: 350px;
+}
+
+.landing-app-info h1 {
+  width: 280px;
+  padding-top: 80px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.landing-app-info p {
+  width: 250px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}

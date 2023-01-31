@@ -1,0 +1,123 @@
+.account-card {
+  height: 180px;
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 20px;
+  position: relative;
+  color: #fff;
+}
+
+ .static-account-cards-section  .account-card{
+  margin: 0px !important;
+ }
+
+.card-1 {
+  background: linear-gradient(107.38deg, #ffaa07 2.61%, #d99d2a 101.2%);
+  /* border: 1px solid #d99d2a; */
+}
+.card-2 {
+  background: linear-gradient(110deg, #ed74d6 8.77%, #8842ff 88.28%);
+  /* border: 1px solid #8842FF; */
+}
+.card-3 {
+  background: linear-gradient(107.98deg, #2ee7f9 0%, #435dfa 97.43%);
+  /* border: 1px solid #435DFA; */
+}
+
+.account-cards-section {
+  position: relative;
+  margin-bottom: 30px;
+  /* display: flex; */
+  /* margin-left: -10px; */
+}
+
+.react-multi-carousel-dot-list {
+  bottom: -30px;
+}
+
+.account-card-action {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.statement-section h5 {
+  margin: 20px 0;
+}
+
+.react-multi-carousel-dot--active button {
+  /* background-color: #435dfa; */
+}
+
+.react-multi-carousel-dot button {
+  /* border-color: #435dfa; */
+}
+
+.model-account-details span {
+  display: block;
+  color: #505887;
+  font-size: 15px;
+  font-family: "openSans-Semibold";
+  padding-bottom: 10px;
+}
+
+.model-account-details label {
+  display: block;
+  font-size: 14px;
+  color: #718ebf;
+  font-family: "openSans-Light";
+  padding-bottom: 5px;
+}
+.ant-modal-title {
+  font-size: 18px;
+  font-family: "openSans-Semibold";
+  color: #505887;
+  margin-top: 5px;
+}
+
+.statement-section h5 {
+  color: var(--secondary_title);
+}
+
+.credit-style {
+  color: #16dbaa;
+  font-size: 16px;
+  font-family: "openSans-Semibold";
+  text-align: right;
+}
+.debit-style {
+  color: #fe5c73;
+  font-size: 16px;
+  font-family: "openSans-Semibold";
+}
+
+.ant-table-content {
+  font-family: "openSans-Regular";
+}
+
+.add-account-card {
+  height: 180px;
+  background: linear-gradient(107.38deg, #2d60ff 2.61%, #539bff 101.2%);
+  border-radius: 25px;
+}
+
+.debit-options .ant-card-body{
+  padding: 0px !important;
+}
+
+
+.add-new-card{
+  display: inline-block;
+  margin-left: 10px;
+}

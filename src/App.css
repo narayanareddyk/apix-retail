@@ -1,0 +1,492 @@
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: var(--primary_1);
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 28px rgb(93 93 102 / 1%);
+  z-index: 1000;
+  padding: 0 30px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border_color);
+}
+
+.render-section {
+  margin-top: 56px;
+  display: flex;
+  height: calc(100vh - 56px);
+  overflow: auto;
+}
+.left-section {
+  width: 200px;
+  background: var(--primary_1);
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  /* border-top: 1px solid var(--border_color);; */
+  height: calc(100vh - 56px);
+  position: fixed;
+  border-right: 1px solid var(--border_color);
+}
+.right-section {
+  width: 100%;
+  padding: 20px 30px;
+  padding-left: 230px;
+}
+
+.ant-result-subtitle {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* p{
+  color: var(--secondary_title);
+} */
+
+.ant-result {
+  padding-bottom: 10px !important;
+}
+
+.image-bg-color-1 {
+  background-color: #fff5d9;
+}
+.image-bg-color-2 {
+  background-color: #e7edff;
+}
+.image-bg-color-3 {
+  background-color: #dcfaf8;
+}
+.image-bg-color-4 {
+  background-color: #ffebff;
+}
+
+.beneficiary-list-section {
+  padding: 20px;
+  border-radius: 25px;
+  background: #fff;
+  padding-top: 10px;
+  min-height: 250px;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 10px 10px;
+}
+
+.ant-table-thead > tr > th {
+  background: #fff !important;
+  font-weight: 600;
+}
+.beneficiary-list-section .btn-align {
+  margin-top: 30px;
+}
+
+.beneficiary-list-section .btn-align .ant-btn {
+  margin-left: 25px;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.title-section span {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.title-section h4 {
+  margin: 0;
+  color: var(--primary_title);
+}
+
+.title-section h5 {
+  color: var(--primary_title);
+}
+
+.bread-crumb-section {
+  margin-bottom: 15px;
+}
+
+.render-confirmation label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.render-confirmation span {
+  display: block;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ant-form-item-label > label {
+  font-family: "openSans-Regular" !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: var(--secondary_title);
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  /* background-color: rgba(33, 33, 33, 0.06); */
+  border-radius: 6px;
+  outline: none;
+  font-weight: 400;
+  height: 36px;
+  align-items: center;
+}
+
+.ant-input,
+.ant-input-password,
+.ant-picker {
+  /* background-color: rgba(33, 33, 33, 0.06); */
+  border-radius: 6px;
+  outline: none;
+  font-weight: 400;
+  height: 36px;
+}
+
+.ant-input-password .ant-input {
+  background-color: initial;
+  height: initial;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: #2d60ff !important;
+  border-color: #2d60ff !important;
+  border-radius: 4px;
+  height: 36px;
+  font-family: "openSans-Semibold";
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  text-transform: uppercase;
+  min-width: 130px;
+}
+
+.ant-btn-default {
+  color: #718ebf !important;
+  border-color: #718ebf !important;
+  border-radius: 4px;
+  height: 36px;
+  font-family: "openSans-Semibold";
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  text-transform: uppercase;
+  min-width: 130px;
+}
+
+.otp-desc {
+  font-family: openSans-Regular;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.password-criteria-section {
+  padding: 15px 30px;
+}
+
+.password-criteria-section h6 {
+  color: #1c1c1c;
+  font-family: openSans-Semibold;
+  margin-left: 12px;
+  /* margin-top: 30px; */
+}
+
+.password-criteria-section ul li {
+  font-size: 14px;
+  margin-bottom: 7px;
+  font-family: openSans-Regular;
+}
+
+.other-services-section h6 {
+  font-family: openSans-Semibold;
+  color: #343c6a;
+  font-size: 18px;
+}
+
+.ant-modal-content {
+  border-radius: 20px;
+}
+.ant-modal-header {
+  border-radius: 20px 20px 0 0;
+}
+
+.account-field-label {
+  font-family: "openSans-Regular" !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: #1c1c1c;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.account-number-field .bal-txt {
+  display: block;
+  padding-bottom: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ant-descriptions-item-label {
+  font-size: 15px;
+  background-color: #2d60ff !important;
+  color: #fff !important;
+  font-family: "openSans-Semibold" !important;
+  width: 250px;
+}
+
+.custom-lbl-style {
+  font-family: "openSans-Regular" !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: var(--secondary_title);
+}
+
+.custom-lbl-style1 {
+  font-family: "openSans-Regular" !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: var(--secondary_title);
+}
+
+.render-success-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.render-success-section p {
+  font-size: 16px;
+  text-align: center;
+  margin: 15px auto;
+  font-family: "openSans-Regular" !important;
+}
+.render-success-section .btn-group-style {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.render-success-section {
+  padding: 30px 0;
+}
+
+.deposit-account-cards-section {
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: -10px;
+}
+
+.react-multi-carousel-dot-list {
+  bottom: -30px;
+}
+
+.deposit-account-card-action {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+  /* background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  border-top: 1px solid #dfeaf2;
+}
+
+.deposit-account-card {
+  height: 180px;
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 20px;
+  position: relative;
+  color: #1c1c1c;
+  background-color: #fff;
+  border: 1px solid #dfeaf2;
+  cursor: pointer;
+}
+
+.top-banner h4 {
+  color: var(--secondary_title);
+}
+
+.bank-name {
+  font-family: "openSans-Semibold" !important;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: var(--primary_title);
+  font-style: italic;
+}
+
+.bank-name2 {
+  font-family: "openSans-Semibold" !important;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: var(--primary_title);
+  font-style: italic;
+  font-size: 22px;
+}
+
+.bank-name1 {
+  font-family: "openSans-Semibold" !important;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: var(--primary_title);
+  font-style: italic;
+}
+
+.profile-details-section span {
+  color: #505887;
+  font-family: "openSans-Semibold" !important;
+  font-size: 16px;
+}
+.profile-details-section label {
+  color: #718ebf;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 20px;
+}
+.profile-details-section {
+  min-height: 450px;
+}
+
+.emi-table {
+  position: absolute;
+  right: -280px;
+  width: 255px;
+  min-height: 250px;
+  top: 0;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid var(--border_color);
+  box-shadow: var(--box_shadow);
+  background-color: var(--primary_1);
+}
+
+.emi-table span {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: var(--secondary_title);
+  font-family: "openSans-Semibold" !important;
+}
+.emi-table label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: var(--secondary_title);
+  font-family: "openSans-Light" !important;
+}
+.emi-table h6 {
+  color: var(--secondary_title);
+}
+
+.account-selection {
+  width: 350px;
+  height: calc(100% - 56px);
+  position: absolute;
+  top: 56px;
+  right: 0;
+  background-color: var(--primary_1);
+  border: 2px solid var(--border_color);
+  z-index: 10;
+  padding: 20px;
+}
+
+.edit-icon {
+  position: absolute;
+  right: -14px;
+  bottom: 53px;
+  cursor: pointer;
+}
+
+.profile-image {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin-top: 30px;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.round-corner {
+  border-radius: 20px;
+}
+
+.linked-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.debit-switch-options {
+  color: var(--secondary_title);
+}
+
+.transfer-record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0;
+  border-bottom: 1px solid #eceff5;
+}
+
+.transfer-record p {
+  padding-right: 20px;
+  margin: 0;
+}
+
+.offer-banner-style {
+  border: 1px dashed #1e1e1e;
+  background-color: #fff;
+}
+
+.offer-banner-style p {
+  margin: 0;
+  line-height: 130px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.upload-success-message{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+  margin-top: 20px;
+}
